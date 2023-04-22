@@ -1,0 +1,187 @@
+/* P {
+    font-size: 12pt;
+    font-family: arial, helvetica;
+    font-weight: normal;
+}
+
+H1 {
+    font-size: 36pt;
+    font-family: verdana, arial;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(103, 229, 233);
+}
+
+TD {
+    font-size: 10pt;
+    font-family: verdana, arial;
+    text-align: center;
+    background-color: 666666;
+}
+
+BODY {
+    background-color: #717ffd;
+    font-family: arial;
+    color: rgb(14, 0, 0);
+}
+
+H1 {
+    text-align: center;
+    color: black
+}
+
+.ex1 {
+    margin: auto;
+    background: gold;
+    width: 66%;
+}
+
+.ex2 {
+    margin: 20px 0px 0 -20px;
+    background: gold;
+    width: 66%;
+}
+
+
+.caja {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: green;
+}
+
+#dos {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: black;
+}
+
+
+.caja {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: orange;
+}
+
+#two {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: green;
+} */
+
+
+/* .caja {
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+}
+
+#uno {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    background: blue;
+    width: 500px;
+}
+
+.vista {
+    width: 500px;
+    height: 300px;
+    padding-left: 150px;
+    background: red;
+} */
+
+
+/* a {
+    color: red;
+}
+
+span {
+    background-color: skyblue;
+} */
+
+
+/* .red {
+    color: #f33;
+}
+
+.yellow-bg {
+    background: #ffa;
+}
+
+.fancy {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+} */
+
+
+/* #confondo {
+    background-color: skyblue;
+} */
+
+
+/* * [lang^=en] {
+        color: green;
+    }
+
+    *.warning {
+        color: red;
+    }
+
+    *#maincontent {
+        border: 1px solid blue;
+    } */
+
+a {
+    color: black;
+}
+
+
+/* Links internos que comienzan con "#" */
+
+a[href^="#"] {
+    background-color: gold;
+}
+
+
+/* Links con "ejemplo" en la URL */
+
+a[href*="ejemplo"] {
+    background-color: silver;
+}
+
+
+/* link con la palabra "sinmayusculas"en la URL,
+        sin chequear mayúsculas */
+
+a[href*="insensitive" i] {
+    color: blue;
+}
+
+
+/* link con la palabra "ConMAyusculas"en la URL,
+        con chequeo de mayúsculas */
+
+a[href*="ConMAyusculas"] {
+    color: orange;
+}
+
+
+/* Links que terminen en ".org" */
+
+a[href$=".org"] {
+    color: red;
+}
+
+
+/* Links que comienzan con "https" y terminan en ".org" */
+
+a[href^="https"] [href$=".org"] {
+    color: green;
+}
